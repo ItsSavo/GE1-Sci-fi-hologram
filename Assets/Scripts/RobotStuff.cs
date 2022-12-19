@@ -7,6 +7,7 @@ public class RobotStuff : MonoBehaviour
     // Start is called before the first frame update
 
     public GameObject LightToSetActive;
+    public GameObject RobotEyes;
     void Start()
     {
       
@@ -20,6 +21,11 @@ public class RobotStuff : MonoBehaviour
         {
             Debug.Log("LOL");
             LightToSetActive.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Debug.Log("LOL");
+            RobotEyes.SetActive(true);
         }
     }
 }
