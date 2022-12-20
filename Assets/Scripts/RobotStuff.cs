@@ -10,11 +10,13 @@ public class RobotStuff : MonoBehaviour
     public GameObject RobotEyes;
     public GameObject LeftEye;
     public GameObject RightEye;
-   
+    public GameObject MusicVisual;
+    public GameObject Sound;
+    
+
     void Start()
     {
-      
-
+   
     }
 
     // Update is called once per frame
@@ -54,5 +56,20 @@ public class RobotStuff : MonoBehaviour
             LeftEye.SetActive(false);
             RightEye.SetActive(false);
         }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            Debug.Log("LOL");
+            MusicVisual.SetActive(true);
+            Sound.SetActive(true);
+
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            MusicVisual.SetActive(false);
+            Sound.SetActive(false);
+        }
     }
+
+    
 }
+
