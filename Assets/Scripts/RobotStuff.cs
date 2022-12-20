@@ -22,10 +22,21 @@ public class RobotStuff : MonoBehaviour
             Debug.Log("LOL");
             LightToSetActive.SetActive(true);
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            LightToSetActive.SetActive(false);
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             Debug.Log("LOL");
             RobotEyes.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Debug.Log("LOL");
+            RobotEyes.SetActive(false);
         }
     }
 }
