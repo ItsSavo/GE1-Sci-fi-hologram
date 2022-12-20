@@ -8,6 +8,9 @@ public class RobotStuff : MonoBehaviour
 
     public GameObject LightToSetActive;
     public GameObject RobotEyes;
+    public GameObject LeftEye;
+    public GameObject RightEye;
+   
     void Start()
     {
       
@@ -37,6 +40,19 @@ public class RobotStuff : MonoBehaviour
         {
             Debug.Log("LOL");
             RobotEyes.SetActive(false);
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Debug.Log("LOL");
+            LeftEye.SetActive(true);
+            RightEye.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            Debug.Log("LOL");
+            LeftEye.SetActive(false);
+            RightEye.SetActive(false);
         }
     }
 }
