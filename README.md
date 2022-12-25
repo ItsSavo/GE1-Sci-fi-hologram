@@ -1,6 +1,6 @@
 # GE1-Sci-fi-hologram
 
-![A different image](![Screenshot 2022-12-25 121103](https://user-images.githubusercontent.com/77964102/209467467-400a8d8f-97bc-4483-a7fd-1ca8a8571eed.png))
+![Screenshot 2022-12-25 121103](https://user-images.githubusercontent.com/77964102/209467467-400a8d8f-97bc-4483-a7fd-1ca8a8571eed.png)
 
 Names: Robert Savins & Scott Burton
 
@@ -10,7 +10,7 @@ Class Group: DT508 (TU984)
 
 Video:
 
-[![YouTube]([http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU](https://youtu.be/6nxuV8Beolw))
+[![YouTube]([http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)])
 
 # Description of the project
 
