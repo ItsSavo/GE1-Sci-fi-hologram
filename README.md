@@ -1,6 +1,6 @@
 # GE1-Sci-fi-hologram
 
-![A different image](https://cdn.discordapp.com/attachments/900780836692045864/1054806279857651712/image.png)
+![A different image](![Screenshot 2022-12-25 121103](https://user-images.githubusercontent.com/77964102/209467467-400a8d8f-97bc-4483-a7fd-1ca8a8571eed.png))
 
 Names: Robert Savins & Scott Burton
 
@@ -10,17 +10,27 @@ Class Group: DT508 (TU984)
 
 Video:
 
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
+[![YouTube]([http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU](https://youtu.be/6nxuV8Beolw))
 
 # Description of the project
 
-Robot left behind in a galaxy, far, far away needs to be rebooted.
+A robot is left behind in a galaxy, far, far away and needs to be rebooted.
 
 # Instructions for use
 
 1 - turn on the lights
+
 Q - turn off the lights
-2 - turn on robot
+
+2 - turn on robot lights
+
+W - Turn off robot lights
+
+3 - turn on music visuals
+
+E - turn off music visuals
+
+
 
 # How it works
  
@@ -30,17 +40,18 @@ Q - turn off the lights
 
 | Class/asset | Source |
 |-----------|-----------|
-| MyClass.cs | Self written |
-| MyClass1.cs | Modified from [reference]() |
-| MyClass2.cs | From [reference]() |
+| Cube.cs | Self written |
+| MeshGenerator.cs | Self written |
+| RobotStuff.cs | Self written |
+| VisualAudio.cs | Modified from class |
+| ParticleSystem | From [https://www.youtube.com/watch?v=ZTaFX8Xyp6E]() |
 
 # References
-* Item 1
-* Item 2
+* Song used - https://www.youtube.com/watch?v=QD1vsicJevY
 
 # What we are most proud of in the assignment
 
-We are most proud of the aesthetic of the neon galaxy we have created for the robot model.
+We are most proud of the aesthetic of the neon galaxy we have created for the robot model. Getting the project to smoothly run in VR with no errors as well as the amazing accidental effect that is randomly generated on the ceiling was a nice surprise.
 
 # What we learned
 
